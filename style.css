@@ -4,7 +4,24 @@
     padding: 0;
 }
 
+body{
+    font-family:Roboto, sans-serif;
+    background-color: white;
+}
+
 img{
     width: 100vb;
     height: auto;
+}
+header{
+    background-color: #779882;
+}
+.hero{
+    background-color: #779882;
+}
+.formular{
+    background-color: #F3F4EF;
+}
+footer{
+    background-color: #425348;
 }
