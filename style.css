@@ -8,6 +8,7 @@ body{
     font-family: Roboto, sans-serif;
     background-color: white;
     font-size: 12px;
+    max-width: 750px;
 }
 h1{
     font-size: 22px;
@@ -38,15 +39,15 @@ i{
     padding-bottom: 10px;
 }
 img{
-    width: auto;
-    height: 30vh;
+    width: 750px;
+    height: 300px;
 }
 
 /* kontaktformular sektion */
 .formular{
     background-color: #F3F4EF;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
     padding: 15px;
 }
 
@@ -113,4 +114,28 @@ footer{
     padding-bottom: 40px;
     padding-right: 30px;
     padding-left: 30px;
+}
+
+/* Style tile*/
+.lys{
+    width: 100px;
+    height: 100px;
+    background-color: #779882;
+}
+
+.mørk{
+    width: 100px;
+    height: 100px;
+    background-color: #425348;
+}
+
+.creme{
+    width: 100px;
+    height: 100px;
+    background-color: #F3F4EF;
+}
+
+.farver{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
 }
