@@ -5,8 +5,15 @@
 }
 
 body{
-    font-family:Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: white;
+    font-size: 12px;
+}
+h1{
+    font-size: 22px;
+}
+h2{
+    font-size: 16px;
 }
 
 img{
@@ -18,10 +25,41 @@ header{
 }
 .hero{
     background-color: #779882;
+    color: white;
 }
 .formular{
     background-color: #F3F4EF;
 }
+
+.kontaktform{
+    background-color: #425348;
+    border-radius: 40px;
+    color: white;
+    padding: 3em;
+    width: 50%;
+    margin: 0 auto;
+}
+
+  input[type=text], input[type=email], input[type=brugernavn], select, textarea {
+      width: 100%;
+      padding: 1em;
+      border: 1px solid #c5c5c5;
+      border-radius: 15px;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+  }
+  
+  input[type=submit]{
+      background-color: #779882;
+      color: #fff;
+      padding: 0.8em 1.5em;
+      border: none;
+      border-radius: 15px;
+      margin-top: 0.5em;
+      width: 100%;
+      font-size: 16px;
+  }
+
 footer{
     background-color: #425348;
 }
