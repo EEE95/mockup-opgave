@@ -16,35 +16,56 @@ h2{
     font-size: 16px;
 }
 
-img{
-    width: 100vb;
-    height: auto;
-}
+/* Header */
 header{
     background-color: #779882;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
 }
+
+i{
+    font-size: 22px;
+}
+
+/* Hero */
 .hero{
     background-color: #779882;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
 }
-.formular{
-    background-color: #F3F4EF;
+img{
+    width: auto;
+    height: 30vh;
 }
 
+/* kontaktformular sektion */
+.formular{
+    background-color: #F3F4EF;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 15px;
+}
+
+/* Kontaktformular */
 .kontaktform{
     background-color: #425348;
     border-radius: 40px;
     color: white;
-    padding: 3em;
-    width: 50%;
+    padding: 2em;
+    width: 200px;
+    height: 250px;
     margin: 0 auto;
 }
 
   input[type=text], input[type=email], input[type=brugernavn], select, textarea {
       width: 100%;
-      padding: 1em;
+      padding: 0.5em;
       border: 1px solid #c5c5c5;
-      border-radius: 15px;
+      border-radius: 10px;
       margin-top: 0.5em;
       margin-bottom: 0.5em;
   }
@@ -52,14 +73,44 @@ header{
   input[type=submit]{
       background-color: #779882;
       color: #fff;
-      padding: 0.8em 1.5em;
+      padding: 0.5em 1.5em;
       border: none;
-      border-radius: 15px;
+      border-radius: 10px;
       margin-top: 0.5em;
       width: 100%;
       font-size: 16px;
   }
 
+/* sidste sektion m. knap */
+
+.sidste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 70px;
+}
+
+.sidste p{
+    white-space: 10px;
+}
+
+.knap{
+    background-color: #779882;
+    border-radius: 10px;
+    color: white;
+    padding: 0.8em 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
 footer{
     background-color: #425348;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
