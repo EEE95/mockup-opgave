@@ -7,14 +7,14 @@
 body{
     font-family: Roboto, sans-serif;
     background-color: white;
-    font-size: 12px;
+    font-size: 16px;
     max-width: 750px;
 }
 h1{
-    font-size: 22px;
+    font-size: 26px;
 }
 h2{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* Header */
@@ -52,7 +52,7 @@ img{
 }
 
 /* Kontaktformular */
-.kontaktform{
+form{
     background-color: #425348;
     border-radius: 40px;
     color: white;
